@@ -1,0 +1,401 @@
+INFO	2023-04-02 13:46:24,207	0	testbase.TestBase	[main]	configuration file:./src/main/resources/config/config.properties
+INFO	2023-04-02 13:46:24,208	1	testbase.TestBase	[main]	Browser:chrome
+DEBUG	2023-04-02 13:46:24,378	171	io.netty.util.internal.logging.InternalLoggerFactory	[main]	Using Log4J as the default logging framework
+DEBUG	2023-04-02 13:46:24,384	177	io.netty.util.ResourceLeakDetector	[main]	-Dio.netty.leakDetection.level: simple
+DEBUG	2023-04-02 13:46:24,385	178	io.netty.util.ResourceLeakDetector	[main]	-Dio.netty.leakDetection.targetRecords: 4
+DEBUG	2023-04-02 13:46:24,391	184	io.netty.util.ResourceLeakDetectorFactory	[main]	Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@397fbdb
+DEBUG	2023-04-02 13:46:24,417	210	io.netty.util.internal.PlatformDependent0	[main]	-Dio.netty.noUnsafe: false
+DEBUG	2023-04-02 13:46:24,418	211	io.netty.util.internal.PlatformDependent0	[main]	Java version: 8
+DEBUG	2023-04-02 13:46:24,419	212	io.netty.util.internal.PlatformDependent0	[main]	sun.misc.Unsafe.theUnsafe: available
+DEBUG	2023-04-02 13:46:24,420	213	io.netty.util.internal.PlatformDependent0	[main]	sun.misc.Unsafe.copyMemory: available
+DEBUG	2023-04-02 13:46:24,421	214	io.netty.util.internal.PlatformDependent0	[main]	sun.misc.Unsafe.storeFence: available
+DEBUG	2023-04-02 13:46:24,421	214	io.netty.util.internal.PlatformDependent0	[main]	java.nio.Buffer.address: available
+DEBUG	2023-04-02 13:46:24,422	215	io.netty.util.internal.PlatformDependent0	[main]	direct buffer constructor: available
+DEBUG	2023-04-02 13:46:24,424	217	io.netty.util.internal.PlatformDependent0	[main]	java.nio.Bits.unaligned: available, true
+DEBUG	2023-04-02 13:46:24,424	217	io.netty.util.internal.PlatformDependent0	[main]	jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9
+DEBUG	2023-04-02 13:46:24,424	217	io.netty.util.internal.PlatformDependent0	[main]	java.nio.DirectByteBuffer.<init>(long, int): available
+DEBUG	2023-04-02 13:46:24,424	217	io.netty.util.internal.PlatformDependent	[main]	sun.misc.Unsafe: available
+DEBUG	2023-04-02 13:46:24,424	217	io.netty.util.internal.PlatformDependent	[main]	-Dio.netty.tmpdir: C:\Users\fakhr\AppData\Local\Temp (java.io.tmpdir)
+DEBUG	2023-04-02 13:46:24,425	218	io.netty.util.internal.PlatformDependent	[main]	-Dio.netty.bitMode: 64 (sun.arch.data.model)
+DEBUG	2023-04-02 13:46:24,425	218	io.netty.util.internal.PlatformDependent	[main]	Platform: Windows
+DEBUG	2023-04-02 13:46:24,427	220	io.netty.util.internal.PlatformDependent	[main]	-Dio.netty.maxDirectMemory: 1879048192 bytes
+DEBUG	2023-04-02 13:46:24,427	220	io.netty.util.internal.PlatformDependent	[main]	-Dio.netty.uninitializedArrayAllocationThreshold: -1
+DEBUG	2023-04-02 13:46:24,428	221	io.netty.util.internal.CleanerJava6	[main]	java.nio.ByteBuffer.cleaner(): available
+DEBUG	2023-04-02 13:46:24,429	222	io.netty.util.internal.PlatformDependent	[main]	-Dio.netty.noPreferDirect: false
+DEBUG	2023-04-02 13:46:24,439	232	io.netty.util.internal.PlatformDependent	[main]	org.jctools-core.MpscChunkedArrayQueue: available
+DEBUG	2023-04-02 13:46:24,463	256	io.netty.util.internal.InternalThreadLocalMap	[main]	-Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+DEBUG	2023-04-02 13:46:24,463	256	io.netty.util.internal.InternalThreadLocalMap	[main]	-Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+DEBUG	2023-04-02 13:46:25,042	835	io.netty.handler.ssl.JdkSslContext	[main]	Default protocols (JDK): [TLSv1.2] 
+DEBUG	2023-04-02 13:46:25,042	835	io.netty.handler.ssl.JdkSslContext	[main]	Default cipher suites (JDK): [TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_AES_128_GCM_SHA256, TLS_AES_256_GCM_SHA384]
+DEBUG	2023-04-02 13:46:25,058	851	io.netty.util.concurrent.GlobalEventExecutor	[main]	-Dio.netty.globalEventExecutor.quietPeriodSeconds: 1
+DEBUG	2023-04-02 13:46:25,078	871	io.netty.channel.MultithreadEventLoopGroup	[main]	-Dio.netty.eventLoopThreads: 16
+DEBUG	2023-04-02 13:46:25,094	887	io.netty.channel.nio.NioEventLoop	[main]	-Dio.netty.noKeySetOptimization: false
+DEBUG	2023-04-02 13:46:25,094	887	io.netty.channel.nio.NioEventLoop	[main]	-Dio.netty.selectorAutoRebuildThreshold: 512
+DEBUG	2023-04-02 13:46:25,156	949	io.netty.buffer.PooledByteBufAllocator	[main]	-Dio.netty.allocator.numHeapArenas: 16
+DEBUG	2023-04-02 13:46:25,156	949	io.netty.buffer.PooledByteBufAllocator	[main]	-Dio.netty.allocator.numDirectArenas: 16
+DEBUG	2023-04-02 13:46:25,156	949	io.netty.buffer.PooledByteBufAllocator	[main]	-Dio.netty.allocator.pageSize: 8192
+DEBUG	2023-04-02 13:46:25,156	949	io.netty.buffer.PooledByteBufAllocator	[main]	-Dio.netty.allocator.maxOrder: 9
+DEBUG	2023-04-02 13:46:25,156	949	io.netty.buffer.PooledByteBufAllocator	[main]	-Dio.netty.allocator.chunkSize: 4194304
+DEBUG	2023-04-02 13:46:25,156	949	io.netty.buffer.PooledByteBufAllocator	[main]	-Dio.netty.allocator.smallCacheSize: 256
+DEBUG	2023-04-02 13:46:25,156	949	io.netty.buffer.PooledByteBufAllocator	[main]	-Dio.netty.allocator.normalCacheSize: 64
+DEBUG	2023-04-02 13:46:25,157	950	io.netty.buffer.PooledByteBufAllocator	[main]	-Dio.netty.allocator.maxCachedBufferCapacity: 32768
+DEBUG	2023-04-02 13:46:25,157	950	io.netty.buffer.PooledByteBufAllocator	[main]	-Dio.netty.allocator.cacheTrimInterval: 8192
+DEBUG	2023-04-02 13:46:25,157	950	io.netty.buffer.PooledByteBufAllocator	[main]	-Dio.netty.allocator.cacheTrimIntervalMillis: 0
+DEBUG	2023-04-02 13:46:25,157	950	io.netty.buffer.PooledByteBufAllocator	[main]	-Dio.netty.allocator.useCacheForAllThreads: false
+DEBUG	2023-04-02 13:46:25,157	950	io.netty.buffer.PooledByteBufAllocator	[main]	-Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+DEBUG	2023-04-02 13:46:25,182	975	io.netty.buffer.ByteBufUtil	[main]	-Dio.netty.allocator.type: pooled
+DEBUG	2023-04-02 13:46:25,183	976	io.netty.buffer.ByteBufUtil	[main]	-Dio.netty.threadLocalDirectBufferSize: 0
+DEBUG	2023-04-02 13:46:25,183	976	io.netty.buffer.ByteBufUtil	[main]	-Dio.netty.maxThreadLocalCharBufferSize: 16384
+DEBUG	2023-04-02 13:46:26,189	1982	io.netty.channel.DefaultChannelId	[Forwarding newSession on session null to remote]	-Dio.netty.processId: 9900 (auto-detected)
+DEBUG	2023-04-02 13:46:26,193	1986	io.netty.util.NetUtil	[Forwarding newSession on session null to remote]	-Djava.net.preferIPv4Stack: false
+DEBUG	2023-04-02 13:46:26,193	1986	io.netty.util.NetUtil	[Forwarding newSession on session null to remote]	-Djava.net.preferIPv6Addresses: false
+DEBUG	2023-04-02 13:46:26,437	2230	io.netty.util.NetUtilInitializations	[Forwarding newSession on session null to remote]	Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+DEBUG	2023-04-02 13:46:26,437	2230	io.netty.util.NetUtil	[Forwarding newSession on session null to remote]	Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+DEBUG	2023-04-02 13:46:26,456	2249	io.netty.channel.DefaultChannelId	[Forwarding newSession on session null to remote]	-Dio.netty.machineId: 90:32:4b:ff:fe:12:64:cf (auto-detected)
+DEBUG	2023-04-02 13:46:26,525	2318	io.netty.buffer.AbstractByteBuf	[AsyncHttpClient-1-2]	-Dio.netty.buffer.checkAccessible: true
+DEBUG	2023-04-02 13:46:26,526	2319	io.netty.buffer.AbstractByteBuf	[AsyncHttpClient-1-2]	-Dio.netty.buffer.checkBounds: true
+DEBUG	2023-04-02 13:46:26,526	2319	io.netty.util.ResourceLeakDetectorFactory	[AsyncHttpClient-1-2]	Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@7640a58b
+DEBUG	2023-04-02 13:46:26,567	2360	io.netty.util.Recycler	[AsyncHttpClient-1-2]	-Dio.netty.recycler.maxCapacityPerThread: 4096
+DEBUG	2023-04-02 13:46:26,567	2360	io.netty.util.Recycler	[AsyncHttpClient-1-2]	-Dio.netty.recycler.ratio: 8
+DEBUG	2023-04-02 13:46:26,567	2360	io.netty.util.Recycler	[AsyncHttpClient-1-2]	-Dio.netty.recycler.chunkSize: 32
+DEBUG	2023-04-02 13:46:26,567	2360	io.netty.util.Recycler	[AsyncHttpClient-1-2]	-Dio.netty.recycler.blocking: false
+DEBUG	2023-04-02 13:46:26,567	2360	io.netty.util.Recycler	[AsyncHttpClient-1-2]	-Dio.netty.recycler.batchFastThreadLocalOnly: true
+DEBUG	2023-04-02 13:46:27,697	3490	io.netty.handler.codec.compression.Brotli	[AsyncHttpClient-1-2]	brotli4j not in the classpath; Brotli support will be unavailable.
+DEBUG	2023-04-02 13:46:28,040	3833	io.netty.util.internal.ThreadLocalRandom	[main]	-Dio.netty.initialSeedUniquifier: 0xcffbf5e2ea80ca82
+INFO	2023-04-02 13:46:30,966	6759	testbase.TestBase	[main]	URLhttps://opensource-demo.orangehrmlive.com
+INFO	2023-04-02 13:46:30,966	6759	testcases.LoginTest	[main]	Initializing WebDriver Page
+INFO	2023-04-02 13:46:31,012	6805	testcases.LoginTest	[main]	Initializing Login Page
+INFO	2023-04-02 13:46:31,014	6807	testcases.LoginTest	[main]	Initializing Dashboard Page
+INFO	2023-04-02 13:46:31,028	6821	testcases.LoginTest	[main]	Verify Login Success
+INFO	2023-04-02 13:46:31,863	7656	testcases.LoginTest	[main]	Assertion for Dashboard Msg display
+INFO	2023-04-02 14:33:29,627	0	testbase.TestBase	[main]	configuration file:./src/main/resources/config/config.properties
+INFO	2023-04-02 14:33:29,628	1	testbase.TestBase	[main]	Browser:chrome
+DEBUG	2023-04-02 14:33:29,781	154	io.netty.util.internal.logging.InternalLoggerFactory	[main]	Using Log4J as the default logging framework
+DEBUG	2023-04-02 14:33:29,787	160	io.netty.util.ResourceLeakDetector	[main]	-Dio.netty.leakDetection.level: simple
+DEBUG	2023-04-02 14:33:29,787	160	io.netty.util.ResourceLeakDetector	[main]	-Dio.netty.leakDetection.targetRecords: 4
+DEBUG	2023-04-02 14:33:29,796	169	io.netty.util.ResourceLeakDetectorFactory	[main]	Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@41d477ed
+DEBUG	2023-04-02 14:33:29,817	190	io.netty.util.internal.PlatformDependent0	[main]	-Dio.netty.noUnsafe: false
+DEBUG	2023-04-02 14:33:29,817	190	io.netty.util.internal.PlatformDependent0	[main]	Java version: 8
+DEBUG	2023-04-02 14:33:29,819	192	io.netty.util.internal.PlatformDependent0	[main]	sun.misc.Unsafe.theUnsafe: available
+DEBUG	2023-04-02 14:33:29,820	193	io.netty.util.internal.PlatformDependent0	[main]	sun.misc.Unsafe.copyMemory: available
+DEBUG	2023-04-02 14:33:29,820	193	io.netty.util.internal.PlatformDependent0	[main]	sun.misc.Unsafe.storeFence: available
+DEBUG	2023-04-02 14:33:29,820	193	io.netty.util.internal.PlatformDependent0	[main]	java.nio.Buffer.address: available
+DEBUG	2023-04-02 14:33:29,821	194	io.netty.util.internal.PlatformDependent0	[main]	direct buffer constructor: available
+DEBUG	2023-04-02 14:33:29,822	195	io.netty.util.internal.PlatformDependent0	[main]	java.nio.Bits.unaligned: available, true
+DEBUG	2023-04-02 14:33:29,822	195	io.netty.util.internal.PlatformDependent0	[main]	jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9
+DEBUG	2023-04-02 14:33:29,822	195	io.netty.util.internal.PlatformDependent0	[main]	java.nio.DirectByteBuffer.<init>(long, int): available
+DEBUG	2023-04-02 14:33:29,822	195	io.netty.util.internal.PlatformDependent	[main]	sun.misc.Unsafe: available
+DEBUG	2023-04-02 14:33:29,823	196	io.netty.util.internal.PlatformDependent	[main]	-Dio.netty.tmpdir: C:\Users\fakhr\AppData\Local\Temp (java.io.tmpdir)
+DEBUG	2023-04-02 14:33:29,823	196	io.netty.util.internal.PlatformDependent	[main]	-Dio.netty.bitMode: 64 (sun.arch.data.model)
+DEBUG	2023-04-02 14:33:29,823	196	io.netty.util.internal.PlatformDependent	[main]	Platform: Windows
+DEBUG	2023-04-02 14:33:29,824	197	io.netty.util.internal.PlatformDependent	[main]	-Dio.netty.maxDirectMemory: 1879048192 bytes
+DEBUG	2023-04-02 14:33:29,824	197	io.netty.util.internal.PlatformDependent	[main]	-Dio.netty.uninitializedArrayAllocationThreshold: -1
+DEBUG	2023-04-02 14:33:29,825	198	io.netty.util.internal.CleanerJava6	[main]	java.nio.ByteBuffer.cleaner(): available
+DEBUG	2023-04-02 14:33:29,826	199	io.netty.util.internal.PlatformDependent	[main]	-Dio.netty.noPreferDirect: false
+DEBUG	2023-04-02 14:33:29,835	208	io.netty.util.internal.PlatformDependent	[main]	org.jctools-core.MpscChunkedArrayQueue: available
+DEBUG	2023-04-02 14:33:29,860	233	io.netty.util.internal.InternalThreadLocalMap	[main]	-Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+DEBUG	2023-04-02 14:33:29,860	233	io.netty.util.internal.InternalThreadLocalMap	[main]	-Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+DEBUG	2023-04-02 14:33:30,607	980	io.netty.handler.ssl.JdkSslContext	[main]	Default protocols (JDK): [TLSv1.2] 
+DEBUG	2023-04-02 14:33:30,607	980	io.netty.handler.ssl.JdkSslContext	[main]	Default cipher suites (JDK): [TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_AES_128_GCM_SHA256, TLS_AES_256_GCM_SHA384]
+DEBUG	2023-04-02 14:33:30,635	1008	io.netty.util.concurrent.GlobalEventExecutor	[main]	-Dio.netty.globalEventExecutor.quietPeriodSeconds: 1
+DEBUG	2023-04-02 14:33:30,673	1046	io.netty.channel.MultithreadEventLoopGroup	[main]	-Dio.netty.eventLoopThreads: 16
+DEBUG	2023-04-02 14:33:30,690	1063	io.netty.channel.nio.NioEventLoop	[main]	-Dio.netty.noKeySetOptimization: false
+DEBUG	2023-04-02 14:33:30,690	1063	io.netty.channel.nio.NioEventLoop	[main]	-Dio.netty.selectorAutoRebuildThreshold: 512
+DEBUG	2023-04-02 14:33:30,772	1145	io.netty.buffer.PooledByteBufAllocator	[main]	-Dio.netty.allocator.numHeapArenas: 16
+DEBUG	2023-04-02 14:33:30,772	1145	io.netty.buffer.PooledByteBufAllocator	[main]	-Dio.netty.allocator.numDirectArenas: 16
+DEBUG	2023-04-02 14:33:30,772	1145	io.netty.buffer.PooledByteBufAllocator	[main]	-Dio.netty.allocator.pageSize: 8192
+DEBUG	2023-04-02 14:33:30,772	1145	io.netty.buffer.PooledByteBufAllocator	[main]	-Dio.netty.allocator.maxOrder: 9
+DEBUG	2023-04-02 14:33:30,772	1145	io.netty.buffer.PooledByteBufAllocator	[main]	-Dio.netty.allocator.chunkSize: 4194304
+DEBUG	2023-04-02 14:33:30,772	1145	io.netty.buffer.PooledByteBufAllocator	[main]	-Dio.netty.allocator.smallCacheSize: 256
+DEBUG	2023-04-02 14:33:30,773	1146	io.netty.buffer.PooledByteBufAllocator	[main]	-Dio.netty.allocator.normalCacheSize: 64
+DEBUG	2023-04-02 14:33:30,773	1146	io.netty.buffer.PooledByteBufAllocator	[main]	-Dio.netty.allocator.maxCachedBufferCapacity: 32768
+DEBUG	2023-04-02 14:33:30,773	1146	io.netty.buffer.PooledByteBufAllocator	[main]	-Dio.netty.allocator.cacheTrimInterval: 8192
+DEBUG	2023-04-02 14:33:30,773	1146	io.netty.buffer.PooledByteBufAllocator	[main]	-Dio.netty.allocator.cacheTrimIntervalMillis: 0
+DEBUG	2023-04-02 14:33:30,773	1146	io.netty.buffer.PooledByteBufAllocator	[main]	-Dio.netty.allocator.useCacheForAllThreads: false
+DEBUG	2023-04-02 14:33:30,773	1146	io.netty.buffer.PooledByteBufAllocator	[main]	-Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+DEBUG	2023-04-02 14:33:30,798	1171	io.netty.buffer.ByteBufUtil	[main]	-Dio.netty.allocator.type: pooled
+DEBUG	2023-04-02 14:33:30,798	1171	io.netty.buffer.ByteBufUtil	[main]	-Dio.netty.threadLocalDirectBufferSize: 0
+DEBUG	2023-04-02 14:33:30,798	1171	io.netty.buffer.ByteBufUtil	[main]	-Dio.netty.maxThreadLocalCharBufferSize: 16384
+DEBUG	2023-04-02 14:33:31,921	2294	io.netty.channel.DefaultChannelId	[Forwarding newSession on session null to remote]	-Dio.netty.processId: 24820 (auto-detected)
+DEBUG	2023-04-02 14:33:31,925	2298	io.netty.util.NetUtil	[Forwarding newSession on session null to remote]	-Djava.net.preferIPv4Stack: false
+DEBUG	2023-04-02 14:33:31,926	2299	io.netty.util.NetUtil	[Forwarding newSession on session null to remote]	-Djava.net.preferIPv6Addresses: false
+DEBUG	2023-04-02 14:33:32,180	2553	io.netty.util.NetUtilInitializations	[Forwarding newSession on session null to remote]	Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+DEBUG	2023-04-02 14:33:32,182	2555	io.netty.util.NetUtil	[Forwarding newSession on session null to remote]	Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+DEBUG	2023-04-02 14:33:32,200	2573	io.netty.channel.DefaultChannelId	[Forwarding newSession on session null to remote]	-Dio.netty.machineId: 90:32:4b:ff:fe:12:64:cf (auto-detected)
+DEBUG	2023-04-02 14:33:32,273	2646	io.netty.buffer.AbstractByteBuf	[AsyncHttpClient-1-2]	-Dio.netty.buffer.checkAccessible: true
+DEBUG	2023-04-02 14:33:32,273	2646	io.netty.buffer.AbstractByteBuf	[AsyncHttpClient-1-2]	-Dio.netty.buffer.checkBounds: true
+DEBUG	2023-04-02 14:33:32,273	2646	io.netty.util.ResourceLeakDetectorFactory	[AsyncHttpClient-1-2]	Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@1438323
+DEBUG	2023-04-02 14:33:32,310	2683	io.netty.util.Recycler	[AsyncHttpClient-1-2]	-Dio.netty.recycler.maxCapacityPerThread: 4096
+DEBUG	2023-04-02 14:33:32,310	2683	io.netty.util.Recycler	[AsyncHttpClient-1-2]	-Dio.netty.recycler.ratio: 8
+DEBUG	2023-04-02 14:33:32,310	2683	io.netty.util.Recycler	[AsyncHttpClient-1-2]	-Dio.netty.recycler.chunkSize: 32
+DEBUG	2023-04-02 14:33:32,310	2683	io.netty.util.Recycler	[AsyncHttpClient-1-2]	-Dio.netty.recycler.blocking: false
+DEBUG	2023-04-02 14:33:32,310	2683	io.netty.util.Recycler	[AsyncHttpClient-1-2]	-Dio.netty.recycler.batchFastThreadLocalOnly: true
+DEBUG	2023-04-02 14:33:34,703	5076	io.netty.handler.codec.compression.Brotli	[AsyncHttpClient-1-2]	brotli4j not in the classpath; Brotli support will be unavailable.
+DEBUG	2023-04-02 14:33:35,137	5510	io.netty.util.internal.ThreadLocalRandom	[main]	-Dio.netty.initialSeedUniquifier: 0x61444f4acc265209
+INFO	2023-04-02 14:33:37,483	7856	testbase.TestBase	[main]	URLhttps://opensource-demo.orangehrmlive.com
+INFO	2023-04-02 14:33:37,483	7856	testcases.LoginTest	[main]	Initializing WebDriver Page
+INFO	2023-04-02 14:33:37,514	7887	testcases.LoginTest	[main]	Initializing Login Page
+INFO	2023-04-02 14:33:37,518	7891	testcases.LoginTest	[main]	Initializing Dashboard Page
+INFO	2023-04-02 14:33:37,529	7902	testcases.LoginTest	[main]	Verify Login Success
+INFO	2023-04-02 14:33:39,253	9626	testcases.LoginTest	[main]	Assertion for Dashboard Msg display
+INFO	2023-04-02 14:33:42,763	13136	testbase.TestBase	[main]	configuration file:./src/main/resources/config/config.properties
+INFO	2023-04-02 14:33:42,763	13136	testbase.TestBase	[main]	Browser:chrome
+INFO	2023-04-02 14:33:48,582	18955	testbase.TestBase	[main]	URLhttps://opensource-demo.orangehrmlive.com
+INFO	2023-04-02 14:33:48,582	18955	testcases.LoginTest	[main]	Initializing WebDriver Page
+INFO	2023-04-02 14:33:48,582	18955	testcases.LoginTest	[main]	Initializing Login Page
+INFO	2023-04-02 14:33:48,582	18955	testcases.LoginTest	[main]	Initializing Dashboard Page
+INFO	2023-04-02 14:33:48,584	18957	testcases.LoginTest	[main]	Verify Login Success
+INFO	2023-04-02 14:33:50,197	20570	testcases.LoginTest	[main]	Assertion for Dashboard Msg display
+INFO	2023-04-02 14:37:26,756	0	testbase.TestBase	[main]	configuration file:./src/main/resources/config/config.properties
+INFO	2023-04-02 14:37:26,757	1	testbase.TestBase	[main]	Browser:chrome
+DEBUG	2023-04-02 14:37:26,908	152	io.netty.util.internal.logging.InternalLoggerFactory	[main]	Using Log4J as the default logging framework
+DEBUG	2023-04-02 14:37:26,912	156	io.netty.util.ResourceLeakDetector	[main]	-Dio.netty.leakDetection.level: simple
+DEBUG	2023-04-02 14:37:26,912	156	io.netty.util.ResourceLeakDetector	[main]	-Dio.netty.leakDetection.targetRecords: 4
+DEBUG	2023-04-02 14:37:26,918	162	io.netty.util.ResourceLeakDetectorFactory	[main]	Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@41d477ed
+DEBUG	2023-04-02 14:37:26,939	183	io.netty.util.internal.PlatformDependent0	[main]	-Dio.netty.noUnsafe: false
+DEBUG	2023-04-02 14:37:26,939	183	io.netty.util.internal.PlatformDependent0	[main]	Java version: 8
+DEBUG	2023-04-02 14:37:26,941	185	io.netty.util.internal.PlatformDependent0	[main]	sun.misc.Unsafe.theUnsafe: available
+DEBUG	2023-04-02 14:37:26,942	186	io.netty.util.internal.PlatformDependent0	[main]	sun.misc.Unsafe.copyMemory: available
+DEBUG	2023-04-02 14:37:26,943	187	io.netty.util.internal.PlatformDependent0	[main]	sun.misc.Unsafe.storeFence: available
+DEBUG	2023-04-02 14:37:26,944	188	io.netty.util.internal.PlatformDependent0	[main]	java.nio.Buffer.address: available
+DEBUG	2023-04-02 14:37:26,945	189	io.netty.util.internal.PlatformDependent0	[main]	direct buffer constructor: available
+DEBUG	2023-04-02 14:37:26,945	189	io.netty.util.internal.PlatformDependent0	[main]	java.nio.Bits.unaligned: available, true
+DEBUG	2023-04-02 14:37:26,945	189	io.netty.util.internal.PlatformDependent0	[main]	jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9
+DEBUG	2023-04-02 14:37:26,945	189	io.netty.util.internal.PlatformDependent0	[main]	java.nio.DirectByteBuffer.<init>(long, int): available
+DEBUG	2023-04-02 14:37:26,947	191	io.netty.util.internal.PlatformDependent	[main]	sun.misc.Unsafe: available
+DEBUG	2023-04-02 14:37:26,948	192	io.netty.util.internal.PlatformDependent	[main]	-Dio.netty.tmpdir: C:\Users\fakhr\AppData\Local\Temp (java.io.tmpdir)
+DEBUG	2023-04-02 14:37:26,948	192	io.netty.util.internal.PlatformDependent	[main]	-Dio.netty.bitMode: 64 (sun.arch.data.model)
+DEBUG	2023-04-02 14:37:26,949	193	io.netty.util.internal.PlatformDependent	[main]	Platform: Windows
+DEBUG	2023-04-02 14:37:26,950	194	io.netty.util.internal.PlatformDependent	[main]	-Dio.netty.maxDirectMemory: 1879048192 bytes
+DEBUG	2023-04-02 14:37:26,950	194	io.netty.util.internal.PlatformDependent	[main]	-Dio.netty.uninitializedArrayAllocationThreshold: -1
+DEBUG	2023-04-02 14:37:26,952	196	io.netty.util.internal.CleanerJava6	[main]	java.nio.ByteBuffer.cleaner(): available
+DEBUG	2023-04-02 14:37:26,952	196	io.netty.util.internal.PlatformDependent	[main]	-Dio.netty.noPreferDirect: false
+DEBUG	2023-04-02 14:37:26,964	208	io.netty.util.internal.PlatformDependent	[main]	org.jctools-core.MpscChunkedArrayQueue: available
+DEBUG	2023-04-02 14:37:26,984	228	io.netty.util.internal.InternalThreadLocalMap	[main]	-Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+DEBUG	2023-04-02 14:37:26,984	228	io.netty.util.internal.InternalThreadLocalMap	[main]	-Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+DEBUG	2023-04-02 14:37:27,527	771	io.netty.handler.ssl.JdkSslContext	[main]	Default protocols (JDK): [TLSv1.2] 
+DEBUG	2023-04-02 14:37:27,527	771	io.netty.handler.ssl.JdkSslContext	[main]	Default cipher suites (JDK): [TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_AES_128_GCM_SHA256, TLS_AES_256_GCM_SHA384]
+DEBUG	2023-04-02 14:37:27,544	788	io.netty.util.concurrent.GlobalEventExecutor	[main]	-Dio.netty.globalEventExecutor.quietPeriodSeconds: 1
+DEBUG	2023-04-02 14:37:27,562	806	io.netty.channel.MultithreadEventLoopGroup	[main]	-Dio.netty.eventLoopThreads: 16
+DEBUG	2023-04-02 14:37:27,577	821	io.netty.channel.nio.NioEventLoop	[main]	-Dio.netty.noKeySetOptimization: false
+DEBUG	2023-04-02 14:37:27,577	821	io.netty.channel.nio.NioEventLoop	[main]	-Dio.netty.selectorAutoRebuildThreshold: 512
+DEBUG	2023-04-02 14:37:27,625	869	io.netty.buffer.PooledByteBufAllocator	[main]	-Dio.netty.allocator.numHeapArenas: 16
+DEBUG	2023-04-02 14:37:27,625	869	io.netty.buffer.PooledByteBufAllocator	[main]	-Dio.netty.allocator.numDirectArenas: 16
+DEBUG	2023-04-02 14:37:27,625	869	io.netty.buffer.PooledByteBufAllocator	[main]	-Dio.netty.allocator.pageSize: 8192
+DEBUG	2023-04-02 14:37:27,625	869	io.netty.buffer.PooledByteBufAllocator	[main]	-Dio.netty.allocator.maxOrder: 9
+DEBUG	2023-04-02 14:37:27,626	870	io.netty.buffer.PooledByteBufAllocator	[main]	-Dio.netty.allocator.chunkSize: 4194304
+DEBUG	2023-04-02 14:37:27,626	870	io.netty.buffer.PooledByteBufAllocator	[main]	-Dio.netty.allocator.smallCacheSize: 256
+DEBUG	2023-04-02 14:37:27,626	870	io.netty.buffer.PooledByteBufAllocator	[main]	-Dio.netty.allocator.normalCacheSize: 64
+DEBUG	2023-04-02 14:37:27,626	870	io.netty.buffer.PooledByteBufAllocator	[main]	-Dio.netty.allocator.maxCachedBufferCapacity: 32768
+DEBUG	2023-04-02 14:37:27,626	870	io.netty.buffer.PooledByteBufAllocator	[main]	-Dio.netty.allocator.cacheTrimInterval: 8192
+DEBUG	2023-04-02 14:37:27,626	870	io.netty.buffer.PooledByteBufAllocator	[main]	-Dio.netty.allocator.cacheTrimIntervalMillis: 0
+DEBUG	2023-04-02 14:37:27,626	870	io.netty.buffer.PooledByteBufAllocator	[main]	-Dio.netty.allocator.useCacheForAllThreads: false
+DEBUG	2023-04-02 14:37:27,626	870	io.netty.buffer.PooledByteBufAllocator	[main]	-Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+DEBUG	2023-04-02 14:37:27,648	892	io.netty.buffer.ByteBufUtil	[main]	-Dio.netty.allocator.type: pooled
+DEBUG	2023-04-02 14:37:27,649	893	io.netty.buffer.ByteBufUtil	[main]	-Dio.netty.threadLocalDirectBufferSize: 0
+DEBUG	2023-04-02 14:37:27,649	893	io.netty.buffer.ByteBufUtil	[main]	-Dio.netty.maxThreadLocalCharBufferSize: 16384
+DEBUG	2023-04-02 14:37:28,167	1411	io.netty.channel.DefaultChannelId	[Forwarding newSession on session null to remote]	-Dio.netty.processId: 29924 (auto-detected)
+DEBUG	2023-04-02 14:37:28,170	1414	io.netty.util.NetUtil	[Forwarding newSession on session null to remote]	-Djava.net.preferIPv4Stack: false
+DEBUG	2023-04-02 14:37:28,170	1414	io.netty.util.NetUtil	[Forwarding newSession on session null to remote]	-Djava.net.preferIPv6Addresses: false
+DEBUG	2023-04-02 14:37:28,415	1659	io.netty.util.NetUtilInitializations	[Forwarding newSession on session null to remote]	Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+DEBUG	2023-04-02 14:37:28,416	1660	io.netty.util.NetUtil	[Forwarding newSession on session null to remote]	Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+DEBUG	2023-04-02 14:37:28,431	1675	io.netty.channel.DefaultChannelId	[Forwarding newSession on session null to remote]	-Dio.netty.machineId: 90:32:4b:ff:fe:12:64:cf (auto-detected)
+DEBUG	2023-04-02 14:37:28,501	1745	io.netty.buffer.AbstractByteBuf	[AsyncHttpClient-1-2]	-Dio.netty.buffer.checkAccessible: true
+DEBUG	2023-04-02 14:37:28,502	1746	io.netty.buffer.AbstractByteBuf	[AsyncHttpClient-1-2]	-Dio.netty.buffer.checkBounds: true
+DEBUG	2023-04-02 14:37:28,502	1746	io.netty.util.ResourceLeakDetectorFactory	[AsyncHttpClient-1-2]	Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@573002cf
+DEBUG	2023-04-02 14:37:28,540	1784	io.netty.util.Recycler	[AsyncHttpClient-1-2]	-Dio.netty.recycler.maxCapacityPerThread: 4096
+DEBUG	2023-04-02 14:37:28,540	1784	io.netty.util.Recycler	[AsyncHttpClient-1-2]	-Dio.netty.recycler.ratio: 8
+DEBUG	2023-04-02 14:37:28,540	1784	io.netty.util.Recycler	[AsyncHttpClient-1-2]	-Dio.netty.recycler.chunkSize: 32
+DEBUG	2023-04-02 14:37:28,540	1784	io.netty.util.Recycler	[AsyncHttpClient-1-2]	-Dio.netty.recycler.blocking: false
+DEBUG	2023-04-02 14:37:28,540	1784	io.netty.util.Recycler	[AsyncHttpClient-1-2]	-Dio.netty.recycler.batchFastThreadLocalOnly: true
+DEBUG	2023-04-02 14:37:29,884	3128	io.netty.handler.codec.compression.Brotli	[AsyncHttpClient-1-2]	brotli4j not in the classpath; Brotli support will be unavailable.
+DEBUG	2023-04-02 14:37:30,161	3405	io.netty.util.internal.ThreadLocalRandom	[main]	-Dio.netty.initialSeedUniquifier: 0xbba0d4f701488b62
+INFO	2023-04-02 14:37:33,324	6568	testbase.TestBase	[main]	URLhttps://opensource-demo.orangehrmlive.com
+INFO	2023-04-02 14:37:33,324	6568	testcases.LoginTest	[main]	Initializing WebDriver Page
+INFO	2023-04-02 14:37:33,354	6598	testcases.LoginTest	[main]	Initializing Login Page
+INFO	2023-04-02 14:37:33,357	6601	testcases.LoginTest	[main]	Initializing Dashboard Page
+INFO	2023-04-02 14:37:33,369	6613	testcases.LoginTest	[main]	Verify Login Success
+INFO	2023-04-02 14:37:35,129	8373	testcases.LoginTest	[main]	Assertion for Dashboard Msg display
+INFO	2023-04-02 14:37:37,616	10860	testbase.TestBase	[main]	configuration file:./src/main/resources/config/config.properties
+INFO	2023-04-02 14:37:37,617	10861	testbase.TestBase	[main]	Browser:chrome
+INFO	2023-04-02 14:37:41,717	14961	testbase.TestBase	[main]	URLhttps://opensource-demo.orangehrmlive.com
+INFO	2023-04-02 14:37:41,717	14961	testcases.LoginTest	[main]	Initializing WebDriver Page
+INFO	2023-04-02 14:37:41,718	14962	testcases.LoginTest	[main]	Initializing Login Page
+INFO	2023-04-02 14:37:41,718	14962	testcases.LoginTest	[main]	Initializing Dashboard Page
+INFO	2023-04-02 14:37:41,720	14964	testcases.LoginTest	[main]	Verify Login Unsuccessful
+INFO	2023-04-02 14:37:42,370	15614	testcases.LoginTest	[main]	Assertion for Error Msg display
+INFO	2023-04-02 14:38:49,227	0	testbase.TestBase	[main]	configuration file:./src/main/resources/config/config.properties
+INFO	2023-04-02 14:38:49,229	2	testbase.TestBase	[main]	Browser:chrome
+DEBUG	2023-04-02 14:38:49,394	167	io.netty.util.internal.logging.InternalLoggerFactory	[main]	Using Log4J as the default logging framework
+DEBUG	2023-04-02 14:38:49,398	171	io.netty.util.ResourceLeakDetector	[main]	-Dio.netty.leakDetection.level: simple
+DEBUG	2023-04-02 14:38:49,398	171	io.netty.util.ResourceLeakDetector	[main]	-Dio.netty.leakDetection.targetRecords: 4
+DEBUG	2023-04-02 14:38:49,406	179	io.netty.util.ResourceLeakDetectorFactory	[main]	Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@41d477ed
+DEBUG	2023-04-02 14:38:49,430	203	io.netty.util.internal.PlatformDependent0	[main]	-Dio.netty.noUnsafe: false
+DEBUG	2023-04-02 14:38:49,430	203	io.netty.util.internal.PlatformDependent0	[main]	Java version: 8
+DEBUG	2023-04-02 14:38:49,431	204	io.netty.util.internal.PlatformDependent0	[main]	sun.misc.Unsafe.theUnsafe: available
+DEBUG	2023-04-02 14:38:49,432	205	io.netty.util.internal.PlatformDependent0	[main]	sun.misc.Unsafe.copyMemory: available
+DEBUG	2023-04-02 14:38:49,432	205	io.netty.util.internal.PlatformDependent0	[main]	sun.misc.Unsafe.storeFence: available
+DEBUG	2023-04-02 14:38:49,432	205	io.netty.util.internal.PlatformDependent0	[main]	java.nio.Buffer.address: available
+DEBUG	2023-04-02 14:38:49,433	206	io.netty.util.internal.PlatformDependent0	[main]	direct buffer constructor: available
+DEBUG	2023-04-02 14:38:49,434	207	io.netty.util.internal.PlatformDependent0	[main]	java.nio.Bits.unaligned: available, true
+DEBUG	2023-04-02 14:38:49,434	207	io.netty.util.internal.PlatformDependent0	[main]	jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9
+DEBUG	2023-04-02 14:38:49,435	208	io.netty.util.internal.PlatformDependent0	[main]	java.nio.DirectByteBuffer.<init>(long, int): available
+DEBUG	2023-04-02 14:38:49,435	208	io.netty.util.internal.PlatformDependent	[main]	sun.misc.Unsafe: available
+DEBUG	2023-04-02 14:38:49,436	209	io.netty.util.internal.PlatformDependent	[main]	-Dio.netty.tmpdir: C:\Users\fakhr\AppData\Local\Temp (java.io.tmpdir)
+DEBUG	2023-04-02 14:38:49,436	209	io.netty.util.internal.PlatformDependent	[main]	-Dio.netty.bitMode: 64 (sun.arch.data.model)
+DEBUG	2023-04-02 14:38:49,436	209	io.netty.util.internal.PlatformDependent	[main]	Platform: Windows
+DEBUG	2023-04-02 14:38:49,437	210	io.netty.util.internal.PlatformDependent	[main]	-Dio.netty.maxDirectMemory: 1879048192 bytes
+DEBUG	2023-04-02 14:38:49,437	210	io.netty.util.internal.PlatformDependent	[main]	-Dio.netty.uninitializedArrayAllocationThreshold: -1
+DEBUG	2023-04-02 14:38:49,440	213	io.netty.util.internal.CleanerJava6	[main]	java.nio.ByteBuffer.cleaner(): available
+DEBUG	2023-04-02 14:38:49,440	213	io.netty.util.internal.PlatformDependent	[main]	-Dio.netty.noPreferDirect: false
+DEBUG	2023-04-02 14:38:49,453	226	io.netty.util.internal.PlatformDependent	[main]	org.jctools-core.MpscChunkedArrayQueue: available
+DEBUG	2023-04-02 14:38:49,479	252	io.netty.util.internal.InternalThreadLocalMap	[main]	-Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+DEBUG	2023-04-02 14:38:49,479	252	io.netty.util.internal.InternalThreadLocalMap	[main]	-Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+DEBUG	2023-04-02 14:38:50,027	800	io.netty.handler.ssl.JdkSslContext	[main]	Default protocols (JDK): [TLSv1.2] 
+DEBUG	2023-04-02 14:38:50,027	800	io.netty.handler.ssl.JdkSslContext	[main]	Default cipher suites (JDK): [TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_AES_128_GCM_SHA256, TLS_AES_256_GCM_SHA384]
+DEBUG	2023-04-02 14:38:50,047	820	io.netty.util.concurrent.GlobalEventExecutor	[main]	-Dio.netty.globalEventExecutor.quietPeriodSeconds: 1
+DEBUG	2023-04-02 14:38:50,066	839	io.netty.channel.MultithreadEventLoopGroup	[main]	-Dio.netty.eventLoopThreads: 16
+DEBUG	2023-04-02 14:38:50,081	854	io.netty.channel.nio.NioEventLoop	[main]	-Dio.netty.noKeySetOptimization: false
+DEBUG	2023-04-02 14:38:50,082	855	io.netty.channel.nio.NioEventLoop	[main]	-Dio.netty.selectorAutoRebuildThreshold: 512
+DEBUG	2023-04-02 14:38:50,145	918	io.netty.buffer.PooledByteBufAllocator	[main]	-Dio.netty.allocator.numHeapArenas: 16
+DEBUG	2023-04-02 14:38:50,145	918	io.netty.buffer.PooledByteBufAllocator	[main]	-Dio.netty.allocator.numDirectArenas: 16
+DEBUG	2023-04-02 14:38:50,145	918	io.netty.buffer.PooledByteBufAllocator	[main]	-Dio.netty.allocator.pageSize: 8192
+DEBUG	2023-04-02 14:38:50,145	918	io.netty.buffer.PooledByteBufAllocator	[main]	-Dio.netty.allocator.maxOrder: 9
+DEBUG	2023-04-02 14:38:50,145	918	io.netty.buffer.PooledByteBufAllocator	[main]	-Dio.netty.allocator.chunkSize: 4194304
+DEBUG	2023-04-02 14:38:50,145	918	io.netty.buffer.PooledByteBufAllocator	[main]	-Dio.netty.allocator.smallCacheSize: 256
+DEBUG	2023-04-02 14:38:50,145	918	io.netty.buffer.PooledByteBufAllocator	[main]	-Dio.netty.allocator.normalCacheSize: 64
+DEBUG	2023-04-02 14:38:50,146	919	io.netty.buffer.PooledByteBufAllocator	[main]	-Dio.netty.allocator.maxCachedBufferCapacity: 32768
+DEBUG	2023-04-02 14:38:50,146	919	io.netty.buffer.PooledByteBufAllocator	[main]	-Dio.netty.allocator.cacheTrimInterval: 8192
+DEBUG	2023-04-02 14:38:50,146	919	io.netty.buffer.PooledByteBufAllocator	[main]	-Dio.netty.allocator.cacheTrimIntervalMillis: 0
+DEBUG	2023-04-02 14:38:50,146	919	io.netty.buffer.PooledByteBufAllocator	[main]	-Dio.netty.allocator.useCacheForAllThreads: false
+DEBUG	2023-04-02 14:38:50,146	919	io.netty.buffer.PooledByteBufAllocator	[main]	-Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+DEBUG	2023-04-02 14:38:50,173	946	io.netty.buffer.ByteBufUtil	[main]	-Dio.netty.allocator.type: pooled
+DEBUG	2023-04-02 14:38:50,173	946	io.netty.buffer.ByteBufUtil	[main]	-Dio.netty.threadLocalDirectBufferSize: 0
+DEBUG	2023-04-02 14:38:50,173	946	io.netty.buffer.ByteBufUtil	[main]	-Dio.netty.maxThreadLocalCharBufferSize: 16384
+DEBUG	2023-04-02 14:38:51,148	1921	io.netty.channel.DefaultChannelId	[Forwarding newSession on session null to remote]	-Dio.netty.processId: 15104 (auto-detected)
+DEBUG	2023-04-02 14:38:51,152	1925	io.netty.util.NetUtil	[Forwarding newSession on session null to remote]	-Djava.net.preferIPv4Stack: false
+DEBUG	2023-04-02 14:38:51,152	1925	io.netty.util.NetUtil	[Forwarding newSession on session null to remote]	-Djava.net.preferIPv6Addresses: false
+DEBUG	2023-04-02 14:38:51,388	2161	io.netty.util.NetUtilInitializations	[Forwarding newSession on session null to remote]	Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+DEBUG	2023-04-02 14:38:51,389	2162	io.netty.util.NetUtil	[Forwarding newSession on session null to remote]	Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+DEBUG	2023-04-02 14:38:51,410	2183	io.netty.channel.DefaultChannelId	[Forwarding newSession on session null to remote]	-Dio.netty.machineId: 90:32:4b:ff:fe:12:64:cf (auto-detected)
+DEBUG	2023-04-02 14:38:51,471	2244	io.netty.buffer.AbstractByteBuf	[AsyncHttpClient-1-2]	-Dio.netty.buffer.checkAccessible: true
+DEBUG	2023-04-02 14:38:51,471	2244	io.netty.buffer.AbstractByteBuf	[AsyncHttpClient-1-2]	-Dio.netty.buffer.checkBounds: true
+DEBUG	2023-04-02 14:38:51,472	2245	io.netty.util.ResourceLeakDetectorFactory	[AsyncHttpClient-1-2]	Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@62bfbc32
+DEBUG	2023-04-02 14:38:51,510	2283	io.netty.util.Recycler	[AsyncHttpClient-1-2]	-Dio.netty.recycler.maxCapacityPerThread: 4096
+DEBUG	2023-04-02 14:38:51,510	2283	io.netty.util.Recycler	[AsyncHttpClient-1-2]	-Dio.netty.recycler.ratio: 8
+DEBUG	2023-04-02 14:38:51,510	2283	io.netty.util.Recycler	[AsyncHttpClient-1-2]	-Dio.netty.recycler.chunkSize: 32
+DEBUG	2023-04-02 14:38:51,510	2283	io.netty.util.Recycler	[AsyncHttpClient-1-2]	-Dio.netty.recycler.blocking: false
+DEBUG	2023-04-02 14:38:51,510	2283	io.netty.util.Recycler	[AsyncHttpClient-1-2]	-Dio.netty.recycler.batchFastThreadLocalOnly: true
+DEBUG	2023-04-02 14:38:52,645	3418	io.netty.handler.codec.compression.Brotli	[AsyncHttpClient-1-2]	brotli4j not in the classpath; Brotli support will be unavailable.
+DEBUG	2023-04-02 14:38:52,844	3617	io.netty.util.internal.ThreadLocalRandom	[main]	-Dio.netty.initialSeedUniquifier: 0x848ba3e4af34a833
+INFO	2023-04-02 14:38:55,328	6101	testbase.TestBase	[main]	URLhttps://opensource-demo.orangehrmlive.com
+INFO	2023-04-02 14:38:55,328	6101	testcases.LoginTest	[main]	Initializing WebDriver Page
+INFO	2023-04-02 14:38:55,357	6130	testcases.LoginTest	[main]	Initializing Login Page
+INFO	2023-04-02 14:38:55,358	6131	testcases.LoginTest	[main]	Initializing Dashboard Page
+INFO	2023-04-02 14:38:55,370	6143	testcases.LoginTest	[main]	Verify Login Success
+INFO	2023-04-02 14:38:56,034	6807	testcases.LoginTest	[main]	Assertion for Dashboard Msg display
+INFO	2023-04-02 14:38:59,699	10472	testbase.TestBase	[main]	configuration file:./src/main/resources/config/config.properties
+INFO	2023-04-02 14:38:59,699	10472	testbase.TestBase	[main]	Browser:chrome
+INFO	2023-04-02 14:39:03,668	14441	testbase.TestBase	[main]	URLhttps://opensource-demo.orangehrmlive.com
+INFO	2023-04-02 14:39:03,668	14441	testcases.LoginTest	[main]	Initializing WebDriver Page
+INFO	2023-04-02 14:39:03,669	14442	testcases.LoginTest	[main]	Initializing Login Page
+INFO	2023-04-02 14:39:03,669	14442	testcases.LoginTest	[main]	Initializing Dashboard Page
+INFO	2023-04-02 14:39:03,670	14443	testcases.LoginTest	[main]	Verify Login Unsuccessful
+INFO	2023-04-02 14:39:05,344	16117	testcases.LoginTest	[main]	Assertion for Error Msg display
+INFO	2023-04-02 15:37:18,117	0	testbase.TestBase	[main]	configuration file:./src/main/resources/config/config.properties
+INFO	2023-04-02 15:37:18,120	3	testbase.TestBase	[main]	Browser:chrome
+INFO	2023-04-02 15:37:28,242	10125	testbase.TestBase	[main]	URLhttps://opensource-demo.orangehrmlive.com
+INFO	2023-04-02 15:37:28,242	10125	testcases.LoginTest	[main]	Initializing WebDriver Page
+INFO	2023-04-02 15:37:28,348	10231	testcases.LoginTest	[main]	Initializing Login Page
+INFO	2023-04-02 15:37:28,350	10233	testcases.LoginTest	[main]	Initializing Dashboard Page
+INFO	2023-04-02 15:37:28,362	10245	testcases.LoginTest	[main]	Initializing MyInFo Page
+INFO	2023-04-02 15:41:20,532	0	testbase.TestBase	[main]	configuration file:./src/main/resources/config/config.properties
+INFO	2023-04-02 15:41:20,534	2	testbase.TestBase	[main]	Browser:chrome
+INFO	2023-04-02 15:41:26,792	6260	testbase.TestBase	[main]	URLhttps://opensource-demo.orangehrmlive.com
+INFO	2023-04-02 15:41:26,792	6260	testcases.LoginTest	[main]	Initializing WebDriver Page
+INFO	2023-04-02 15:41:26,831	6299	testcases.LoginTest	[main]	Initializing Login Page
+INFO	2023-04-02 15:41:26,833	6301	testcases.LoginTest	[main]	Initializing Dashboard Page
+INFO	2023-04-02 15:41:26,843	6311	testcases.LoginTest	[main]	Initializing MyInFo Page
+INFO	2023-04-02 15:41:59,600	0	testbase.TestBase	[main]	configuration file:./src/main/resources/config/config.properties
+INFO	2023-04-02 15:41:59,601	1	testbase.TestBase	[main]	Browser:chrome
+INFO	2023-04-02 15:42:05,636	6036	testbase.TestBase	[main]	URLhttps://opensource-demo.orangehrmlive.com
+INFO	2023-04-02 15:42:05,636	6036	testcases.LoginTest	[main]	Initializing WebDriver Page
+INFO	2023-04-02 15:42:05,681	6081	testcases.LoginTest	[main]	Initializing Login Page
+INFO	2023-04-02 15:42:05,685	6085	testcases.LoginTest	[main]	Initializing Dashboard Page
+INFO	2023-04-02 15:42:05,696	6096	testcases.LoginTest	[main]	Initializing MyInFo Page
+INFO	2023-04-02 15:42:46,223	0	testbase.TestBase	[main]	configuration file:./src/main/resources/config/config.properties
+INFO	2023-04-02 15:42:46,224	1	testbase.TestBase	[main]	Browser:chrome
+INFO	2023-04-02 15:42:51,583	5360	testbase.TestBase	[main]	URLhttps://opensource-demo.orangehrmlive.com
+INFO	2023-04-02 15:42:51,583	5360	testcases.LoginTest	[main]	Initializing WebDriver Page
+INFO	2023-04-02 15:42:51,634	5411	testcases.LoginTest	[main]	Initializing Login Page
+INFO	2023-04-02 15:42:51,637	5414	testcases.LoginTest	[main]	Initializing Dashboard Page
+INFO	2023-04-02 15:42:51,647	5424	testcases.LoginTest	[main]	Initializing MyInFo Page
+INFO	2023-04-02 15:49:52,884	0	testbase.TestBase	[main]	configuration file:./src/main/resources/config/config.properties
+INFO	2023-04-02 15:49:52,886	2	testbase.TestBase	[main]	Browser:chrome
+INFO	2023-04-02 15:50:19,248	26364	testbase.TestBase	[main]	URLhttps://opensource-demo.orangehrmlive.com
+INFO	2023-04-02 15:50:19,249	26365	testcases.LoginTest	[main]	Initializing WebDriver Page
+INFO	2023-04-02 15:50:20,420	27536	testcases.LoginTest	[main]	Initializing Login Page
+INFO	2023-04-02 15:50:20,433	27549	testcases.LoginTest	[main]	Initializing Dashboard Page
+INFO	2023-04-02 15:50:20,456	27572	testcases.LoginTest	[main]	Verify Login Success
+INFO	2023-04-02 15:50:26,857	33973	testcases.LoginTest	[main]	Assertion for Dashboard Msg display
+INFO	2023-04-02 15:50:31,202	38318	testbase.TestBase	[main]	configuration file:./src/main/resources/config/config.properties
+INFO	2023-04-02 15:50:31,202	38318	testbase.TestBase	[main]	Browser:chrome
+INFO	2023-04-02 15:50:40,471	47587	testbase.TestBase	[main]	URLhttps://opensource-demo.orangehrmlive.com
+INFO	2023-04-02 15:50:40,471	47587	testcases.LoginTest	[main]	Initializing WebDriver Page
+INFO	2023-04-02 15:50:40,472	47588	testcases.LoginTest	[main]	Initializing Login Page
+INFO	2023-04-02 15:50:40,472	47588	testcases.LoginTest	[main]	Initializing Dashboard Page
+INFO	2023-04-02 15:50:40,474	47590	testcases.LoginTest	[main]	Verify Login Unsuccessful
+INFO	2023-04-02 15:50:43,785	50901	testcases.LoginTest	[main]	Assertion for Error Msg display
+INFO	2023-04-02 15:50:45,202	52318	testbase.TestBase	[main]	configuration file:./src/main/resources/config/config.properties
+INFO	2023-04-02 15:50:45,202	52318	testbase.TestBase	[main]	Browser:chrome
+INFO	2023-04-02 15:50:50,982	58098	testbase.TestBase	[main]	URLhttps://opensource-demo.orangehrmlive.com
+INFO	2023-04-02 15:50:51,105	58221	testcases.LoginTest	[main]	Initializing WebDriver Page
+INFO	2023-04-02 15:50:51,107	58223	testcases.LoginTest	[main]	Initializing Login Page
+INFO	2023-04-02 15:50:51,107	58223	testcases.LoginTest	[main]	Initializing Dashboard Page
+INFO	2023-04-02 15:50:51,118	58234	testcases.LoginTest	[main]	Initializing MyInFo Page
+INFO	2023-04-02 15:57:03,729	0	testbase.TestBase	[main]	configuration file:./src/main/resources/config/config.properties
+INFO	2023-04-02 15:57:03,730	1	testbase.TestBase	[main]	Browser:chrome
+INFO	2023-04-02 15:57:10,524	6795	testbase.TestBase	[main]	URLhttps://opensource-demo.orangehrmlive.com
+INFO	2023-04-02 15:57:10,524	6795	testcases.LoginTest	[main]	Initializing WebDriver Page
+INFO	2023-04-02 15:57:10,662	6933	testcases.LoginTest	[main]	Initializing Login Page
+INFO	2023-04-02 15:57:10,676	6947	testcases.LoginTest	[main]	Initializing Dashboard Page
+INFO	2023-04-02 15:57:10,694	6965	testcases.LoginTest	[main]	Verify Login Success
+INFO	2023-04-02 15:57:12,678	8949	testcases.LoginTest	[main]	Assertion for Dashboard Msg display
+INFO	2023-04-02 15:57:15,679	11950	testbase.TestBase	[main]	configuration file:./src/main/resources/config/config.properties
+INFO	2023-04-02 15:57:15,680	11951	testbase.TestBase	[main]	Browser:chrome
+INFO	2023-04-02 15:57:24,291	20562	testbase.TestBase	[main]	URLhttps://opensource-demo.orangehrmlive.com
+INFO	2023-04-02 15:57:24,291	20562	testcases.LoginTest	[main]	Initializing WebDriver Page
+INFO	2023-04-02 15:57:24,292	20563	testcases.LoginTest	[main]	Initializing Login Page
+INFO	2023-04-02 15:57:24,292	20563	testcases.LoginTest	[main]	Initializing Dashboard Page
+INFO	2023-04-02 15:57:24,296	20567	testcases.LoginTest	[main]	Verify Login Unsuccessful
+INFO	2023-04-02 15:57:26,248	22519	testcases.LoginTest	[main]	Assertion for Error Msg display
+INFO	2023-04-02 15:57:27,384	23655	testbase.TestBase	[main]	configuration file:./src/main/resources/config/config.properties
+INFO	2023-04-02 15:57:27,385	23656	testbase.TestBase	[main]	Browser:chrome
+INFO	2023-04-02 15:57:31,871	28142	testbase.TestBase	[main]	URLhttps://opensource-demo.orangehrmlive.com
+INFO	2023-04-02 15:57:31,999	28270	testcases.LoginTest	[main]	Initializing WebDriver Page
+INFO	2023-04-02 15:57:32,000	28271	testcases.LoginTest	[main]	Initializing Login Page
+INFO	2023-04-02 15:57:32,001	28272	testcases.LoginTest	[main]	Initializing Dashboard Page
+INFO	2023-04-02 15:57:32,006	28277	testcases.LoginTest	[main]	Initializing MyInFo Page
+INFO	2023-04-02 16:01:05,424	0	testbase.TestBase	[main]	configuration file:./src/main/resources/config/config.properties
+INFO	2023-04-02 16:01:05,427	3	testbase.TestBase	[main]	Browser:chrome
+INFO	2023-04-02 16:01:15,972	10548	testbase.TestBase	[main]	URLhttps://opensource-demo.orangehrmlive.com
+INFO	2023-04-02 16:01:15,972	10548	testcases.LoginTest	[main]	Initializing WebDriver Page
+INFO	2023-04-02 16:01:16,030	10606	testcases.LoginTest	[main]	Initializing Login Page
+INFO	2023-04-02 16:01:16,034	10610	testcases.LoginTest	[main]	Initializing Dashboard Page
+INFO	2023-04-02 16:01:16,038	10614	testcases.LoginTest	[main]	Verify Login Success
+INFO	2023-04-02 16:01:18,091	12667	testcases.LoginTest	[main]	Assertion for Dashboard Msg display
+INFO	2023-04-02 16:01:20,907	15483	testbase.TestBase	[main]	configuration file:./src/main/resources/config/config.properties
+INFO	2023-04-02 16:01:20,909	15485	testbase.TestBase	[main]	Browser:chrome
+INFO	2023-04-02 16:01:25,197	19773	testbase.TestBase	[main]	URLhttps://opensource-demo.orangehrmlive.com
+INFO	2023-04-02 16:01:25,197	19773	testcases.LoginTest	[main]	Initializing WebDriver Page
+INFO	2023-04-02 16:01:25,198	19774	testcases.LoginTest	[main]	Initializing Login Page
+INFO	2023-04-02 16:01:25,201	19777	testcases.LoginTest	[main]	Initializing Dashboard Page
+INFO	2023-04-02 16:01:25,202	19778	testcases.LoginTest	[main]	Verify Login Unsuccessful
+INFO	2023-04-02 16:01:27,305	21881	testcases.LoginTest	[main]	Assertion for Error Msg display
+INFO	2023-04-02 16:01:28,641	23217	testbase.TestBase	[main]	configuration file:./src/main/resources/config/config.properties
+INFO	2023-04-02 16:01:28,642	23218	testbase.TestBase	[main]	Browser:chrome
+INFO	2023-04-02 16:01:36,182	30758	testbase.TestBase	[main]	URLhttps://opensource-demo.orangehrmlive.com
+INFO	2023-04-02 16:01:36,277	30853	testcases.LoginTest	[main]	Initializing WebDriver Page
+INFO	2023-04-02 16:01:36,278	30854	testcases.LoginTest	[main]	Initializing Login Page
+INFO	2023-04-02 16:01:36,279	30855	testcases.LoginTest	[main]	Initializing Dashboard Page
+INFO	2023-04-02 16:01:36,288	30864	testcases.LoginTest	[main]	Initializing MyInFo Page
